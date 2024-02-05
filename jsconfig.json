@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "vueCompilerOptions": {
+    "plugins": ["@vue/language-plugin-pug"]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}

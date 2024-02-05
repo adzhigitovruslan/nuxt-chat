@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app-chat-2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "lintfix": "npm run lint:js -- --fix"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.25.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nuxt": "^2.15.8",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "socket.io": "^2.3.0",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-socket.io": "^3.0.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuetify": "^2.6.10",
+    "vuetify-loader": "^1.9.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@nuxtjs/eslint-config": "^11.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@vue/language-plugin-pug": "^1.8.27",
+    "consola": "^3.2.3",
+    "eslint": "^8.24.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "nodemon": "3.0.3",
+    "sass": "^1.70.0",
+    "sass-loader": "^10.5.2"
+  }
+}
